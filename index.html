@@ -19,9 +19,8 @@
   </head>
   <body class="bg-black">
     <header
-      class="relative w-full pt-3 pl-3 pb-3 pr-3 top-0 left-0 right-0 bg-gradient-to-l from-violet-700"
+      class="fixed w-full pt-3 pl-3 pb-3 pr-3 top-0 left-0 right-0 top-0 bg-gradient-to-r from-black to-[#5E47A1]/50  "
     >
-    <div class="absolute top-0 left-0 right-0 w-full h-full"></div>
       <nav class="flex justify-between">
         <div class="flex place-items-center">
           <h1 style="font-family: 'Griffy'" class="text-3xl text-yellow-400">
@@ -36,7 +35,7 @@
         </div>
         <div class="flex place-items-center">
           <form>
-            <div class="relative text-gray-600 focus-within:text-gray-400">
+            <div class="relative text-white focus-within:text-gray-400">
               <span class="absolute inset-y-0 right-2 flex items-center pl-2">
                 <button
                   type="submit"
@@ -60,7 +59,7 @@
               <input
                 type="search"
                 name="q"
-                class="py-2 text-sm text-white bg-gray-900 rounded-full pl-2 w-80 focus:outline-none focus:bg-white focus:text-gray-900"
+                class="py-2 text-sm text-white bg-[#3B567D] rounded-full pl-2 w-80 focus:outline-none focus:bg-white focus:text-gray-900"
                 placeholder="Search..."
                 autocomplete="off"
               />
@@ -79,13 +78,34 @@
         </div>
       </nav>
     </header>
-    <!-- <section class="bg-center bg-no-repeat bg-[url('/img/Movie Wallpaper.png')] bg-gray-700 bg-blend-multiply">
-    </section> -->
+    
+    
+
+
+<aside id="default-sidebar" class="fixed top-24 left-0 z-40 w-14 h-64 ">
+  <div class="h-full px-3 py-4 overflow-y-auto bg-gradient-to-t from-[#130B29] to-[#5E47A1] rounded-r-2xl">
+     <ul>
+      <span class="pb-10">
+        <i class="fa fa-download text-white text-xl"></i>
+      </span>
+      <span class="pb-10">
+        <i class="fa fa-bell text-white text-xl"></i>
+      </span>
+      <span class="pb-10">
+        <i class="fa fa-download text-white text-xl"></i>
+      </span>
+      <span class="pb-10">
+        <i class="fa fa- text-white text-xl"></i>
+      </span>
+      
+     </ul>
+  </div>
+</aside>
 
     <section
-      class="bg-right bg-no-repeat bg-cover z-10 bg-[url('/img/MovieWallpaper.png')]"
+      class="bg-right bg-no-repeat bg-contain bg-center bg-[url('/img/MovieWallpaper.png')]"
     >
-      <div class="py-80 bg-gradient-to-l from-transparent to-black"></div>
+      <div class="py-80 bg-gradient-to-r from-black to-black/60"></div>
     </section>
 
     <main></main>
