@@ -19,14 +19,12 @@
   </head>
   <body class="bg-black">
     <header
-      class="w-screen pt-3 pl-3 pb-3 pr-3 top-0 left-0 right-0 bg-gradient-to-l from-indigo-400 opacity-60"
+      class="relative w-full pt-3 pl-3 pb-3 pr-3 top-0 left-0 right-0 bg-gradient-to-l from-violet-700"
     >
-      <nav class="flex  justify-between">
+    <div class="absolute top-0 left-0 right-0 w-full h-full"></div>
+      <nav class="flex justify-between">
         <div class="flex place-items-center">
-          <h1
-            style="font-family: 'Griffy'"
-            class="text-3xl text-yellow-400"
-          >
+          <h1 style="font-family: 'Griffy'" class="text-3xl text-yellow-400">
             DRAMATIC
           </h1>
           <ul class="flex items-center ps-10 gap-x-6 text-white">
@@ -83,12 +81,12 @@
     </header>
     <!-- <section class="bg-center bg-no-repeat bg-[url('/img/Movie Wallpaper.png')] bg-gray-700 bg-blend-multiply">
     </section> -->
-    
-<section class="bg-right bg-no-repeat bg-cover  bg-[url('/img/MovieWallpaper.png')]">
-    <div class="py-80 bg-gradient-to-l from-transparent to-black">
-        
-    </div>
-</section>
+
+    <section
+      class="bg-right bg-no-repeat bg-cover z-10 bg-[url('/img/MovieWallpaper.png')]"
+    >
+      <div class="py-80 bg-gradient-to-l from-transparent to-black"></div>
+    </section>
 
     <main></main>
     <footer></footer>
