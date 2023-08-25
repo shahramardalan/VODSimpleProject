@@ -1,4 +1,3 @@
-const movieList1 = document.querySelector("#movieList1");
 const ctn = document.querySelector("#movieList1");
 
 function createMovieCard({ imageUrl, movieName, year, imdbRate, liked }) {
